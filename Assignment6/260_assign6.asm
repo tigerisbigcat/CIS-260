@@ -74,10 +74,15 @@ main proc
    mov bx, dx
 
    ; comment 13: swap two characts in the ax
-   mov cx, ax
-   mov dl, ch
-   mov dh, cl
-   mov ax, dx
+   mov ch, al
+   mov cl, ah
+   mov ax, cx
+
+;   ; comment 13: swap two characts in the ax
+;   mov cx, ax
+;   mov dl, ch
+;   mov dh, cl
+;   mov ax, dx
 
    ; comment 14: put the value into array of msgbackward.
    mov [msgbackward+0], ax 
