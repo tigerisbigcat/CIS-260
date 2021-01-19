@@ -93,9 +93,8 @@ main proc
    mov [msgbackward+10], bp 
 
 
-
-mov esp, restore_esp ; restore register ESP to it's original value so the program can end correctly
-                     ; DO NOT REMOVE THIS
+mov esp, restore_esp       ; restore register ESP to it's original value so the program can end correctly
+                           ; DO NOT REMOVE THIS
 
 	invoke ExitProcess,0
 main endp
