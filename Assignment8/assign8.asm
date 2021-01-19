@@ -42,7 +42,6 @@ add esi, 4      ; comment 10: move to the next element
 
 loop L1
 
-
 	invoke	ExitProcess,0
 main endp
 end main
