@@ -80,7 +80,6 @@ add bl, 1
 mov bh, 0FFh
 sub bh, var3
 add bh, 1
-
 	
 	invoke ExitProcess,0
 main endp
